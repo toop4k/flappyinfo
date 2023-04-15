@@ -1,0 +1,12 @@
+Este trabajo está basado en el juego original de Flappy Bird. 
+
+Se hicieron 3 versiones:
+
+flappy.py
+En esta se replica el mecanismo del juego usando figuras de colores. Al ejecutar el juego este comienza, se debe usara la tecla SPACE para saltar y pasar entre medio de los rectángulos. Tuve un problema y es que las colisiones que hacen que pierdas “GAME OVER” están más arriba de los rectángulos vistos en pantalla, este problema será resuelto en el siguiente código. 
+flappy_text.py
+
+En este usamos el mismo código de flappy.py solo que ahora remplazaremos las figuras con los sprites del juego “Flappy Bird”.  El juego se ve mucho mejor y también arregle el problema de las colisiones, acomodando bien los sprites de los pipes o tuberías. 
+
+flappy_clasi.py
+Lo que hice aquí fue modificar el código de flappy_text.py y hacer que funciones en base a clases, teniendo así una clase para el pajarito y otra para las tuberías. También añadí la opción de REINICIAR el juego cuando estas en “GAME OVER”, solo se debe presionar la tecla “R” y el juego empezara de nuevo. 
